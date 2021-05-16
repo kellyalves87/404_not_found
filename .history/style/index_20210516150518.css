@@ -1,0 +1,46 @@
+/* Mobile first */
+
+.header h1 {
+    font-family: inconsolata;
+    font-size: 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.content {
+    margin: 1rem;
+}
+
+.content h1, p, button {
+    font-family: Space Mono;
+}
+
+.content h1, button {
+    font-weight: 700;
+}
+
+.content h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content p {
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+button {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #333333;
+    font-size: 14px;
+    position: absolute;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}

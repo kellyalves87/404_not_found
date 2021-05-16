@@ -1,0 +1,66 @@
+/* Mobile first */
+@media only screen and (max-width: 400px) {
+  .header h1 {
+    font-family: inconsolata, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .content img {
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+    width: 200px;
+  }
+
+  .header,
+  .content,
+  .button,
+  .footer {
+    margin: 1rem;
+  }
+
+  .content h1,
+  p,
+  button {
+    font-family: Space Mono, sans-serif;
+  }
+
+  .content h1,
+  button {
+    font-weight: 700;
+  }
+
+  .content h1 {
+    font-size: 2.75rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .content p {
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-right: 30px;
+  }
+
+  button {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #333333;
+    font-size: 14px;
+    position: absolute;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    padding-top: 60px;
+    position: absolute;
+    font-size: 0.85rem;
+  }
+  .footer a {
+    color: #bdbdbd;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+  }
+}

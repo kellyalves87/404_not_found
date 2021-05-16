@@ -1,0 +1,170 @@
+/*Desktop*/
+.header h1 {
+  font-family: Inconsolata, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content img {
+  position: absolute;
+  height: 447.4263916015625px;
+  width: 539.2236938476562px;
+  left: 77px;
+  top: 150px;
+  border-radius: 0px;
+}
+
+.header,
+.content,
+.button,
+.footer {
+  margin: 2rem;
+}
+
+.content h1,
+p,
+button {
+  font-family: Space Mono, sans-serif;
+}
+
+.content h1,
+button {
+  font-weight: 700;
+}
+
+.content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 150px;
+  position: absolute;
+}
+
+.content p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: absolute;
+  width: 384px;
+  height: 108px;
+  left: 736px;
+  top: 350px;
+}
+
+button {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #333333;
+  font-size: 14px;
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 480px;
+  text-transform: uppercase;
+}
+
+.footer {
+  font-size: 0.85rem;
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 577px;
+  top: 663px;
+}
+
+.footer a {
+  color: #bdbdbd;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+}
+
+/* Mobile first */
+@media only screen and (max-width: 414px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header h1 {
+    font-family: inconsolata, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .content img {
+    height: 238.00001525878906px;
+    width: 286.829833984375px;
+    left: 44px;
+    top: 70px;
+    border-radius: 0px;
+  }
+
+  .header,
+  .content,
+  .button,
+  .footer {
+    margin: 1rem;
+  }
+
+  .content h1,
+  p,
+  button {
+    font-family: Space Mono, sans-serif;
+  }
+
+  .content h1,
+  button {
+    font-weight: 700;
+  }
+
+  .content h1 {
+    font-size: 2.50rem;
+    letter-spacing: -0.035em;
+    position: absolute;
+    width: 344px;
+    height: 142px;
+    left: 24px;
+    top: 325px;
+  }
+
+  .content p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: -0.035em;
+    position: absolute;
+    width: 328px;
+    height: 81px;
+    left: 23px;
+    top: 450px;
+  }
+
+  button {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #333333;
+    font-size: 0.875rem;
+    position: absolute;
+    width: 180px;
+    height: 68px;
+    left: 24px;
+    top: 540px;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    font-size: 0.85rem;
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 46px;
+    top: 908px;
+  }
+  .footer a {
+    color: #bdbdbd;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+  }
+}

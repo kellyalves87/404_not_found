@@ -1,0 +1,31 @@
+/* Mobile first */
+
+.header {
+    font-family: inconsolata;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.content h2, p {
+    font-family: Space Mono;
+}
+
+.content h2 {
+    font-weight: 700;
+}
+
+.content p {
+    font-weight: 400;
+}
+
+button {
+    color: #ffffff;
+    background-color: #333333;
+    font-size: 14px;
+}

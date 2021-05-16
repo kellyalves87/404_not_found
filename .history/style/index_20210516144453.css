@@ -1,0 +1,18 @@
+/* Mobile first */
+
+.header {
+    font-family: inconsolata;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
+
+.content {
+    font-family: Space Mono;
+    font-weight: 700;
+}

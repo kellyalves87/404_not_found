@@ -1,0 +1,153 @@
+/* Mobile first */
+@media only screen and (max-width: 414px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header h1 {
+    font-family: inconsolata, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .content img {
+    padding-top: 10px;
+    display: flex;
+    margin: auto;
+    width: 200px;
+  }
+
+  .header,
+  .content,
+  .button,
+  .footer {
+    margin: 1rem;
+  }
+
+  .content h1,
+  p,
+  button {
+    font-family: Space Mono, sans-serif;
+  }
+
+  .content h1,
+  button {
+    font-weight: 700;
+  }
+
+  .content h1 {
+    font-size: 2.75rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+
+  button {
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #333333;
+    font-size: 14px;
+    position: fixed;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+
+  .footer {
+    font-size: 0.85rem;
+    padding-top: 40px;
+  }
+  .footer a {
+    color: #bdbdbd;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+  }
+}
+
+/*Desktop*/
+
+.header h1 {
+  font-family: Inconsolata, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content img {
+  position: absolute;
+  height: 447.4263916015625px;
+  width: 539.2236938476562px;
+  left: 77px;
+  top: 265px;
+  border-radius: 0px;
+}
+
+.header,
+.content,
+.button,
+.footer {
+  margin: 2rem;
+}
+
+.content h1,
+p,
+button {
+  font-family: Space Mono, sans-serif;
+}
+
+.content h1,
+button {
+  font-weight: 700;
+}
+
+.content h1 {
+  font-size: 4rem;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+  position: absolute;
+}
+
+.content p {
+  font-size: 2rem;
+  font-weight: 400;
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 491px;
+}
+
+button {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #333333;
+  font-size: 14px;
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  text-transform: uppercase;
+}
+
+.footer {
+  font-size: 0.85rem;
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 577px;
+  top: 1039px;
+}
+
+.footer a {
+  color: #bdbdbd;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+}

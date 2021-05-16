@@ -1,0 +1,13 @@
+/* Mobile first */
+
+.header {
+    font-family: inconsolata;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.image {
+    display: flex;
+    margin: auto;
+    width: 200px;
+}
